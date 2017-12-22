@@ -9,7 +9,7 @@ public class ChargeUser {
         this.paymentGateway = paymentGateway;
     }
 
-    public void run(String userId, int paymentMonthlyAmount) {
-        paymentGateway.createReocurringPayment(paymentMonthlyAmount);
-    }
+//    public void run(String userId, int paymentMonthlyAmount) {
+//        paymentGateway.createReocurringPayment(paymentMonthlyAmount);
+//    }
 }
